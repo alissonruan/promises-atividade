@@ -22,8 +22,7 @@ fetch(`${host}/characters`, {
     hearders: {
         Accept: 'application/json'
     }
-}).then((response)=>{
-    return response.json()
+
 }).then((data)=>{
     console.log(data.characters[0].images[0]);
     console.log(data.characters[0])
