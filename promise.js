@@ -32,4 +32,4 @@ fetch(`${host}/characters`, {
     }
 }).catch((error)=>{
     console.log(error)
-})
+}) 
